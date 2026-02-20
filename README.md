@@ -4,13 +4,11 @@ This project implements an Artificial Neural Network (ANN) to predict diabetes r
 
 The implementation demonstrates a complete deep learning pipeline including data preprocessing, feature scaling, neural network design, training, and evaluation using PyTorch.
 
-Project Overview
+**Project Overview**
 
-Early prediction of diabetes helps support clinical decision-making and preventive healthcare. This project uses patient health indicators such as glucose level, BMI, insulin level, age, and blood pressure to build a binary classification model that predicts diabetes outcomes.
+Early prediction of diabetes helps support clinical decision-making and preventive healthcare. This project uses patient health indicators such as glucose level, BMI, insulin level, age, and blood pressure to build a binary classification model that predicts diabetes outcomes. The model applies deep learning techniques to structured healthcare data to capture complex feature interactions that traditional models may miss.
 
-The model applies deep learning techniques to structured healthcare data to capture complex feature interactions that traditional models may miss.
-
-Dataset
+**Dataset**
 
 The PIMA Diabetes dataset contains medical diagnostic measurements for female patients of Pima Indian heritage.
 
@@ -36,31 +34,25 @@ Target:
 
 Outcome (0 = No Diabetes, 1 = Diabetes)
 
-Project Workflow
+**Project Workflow**
 
-Data loading and exploration
+1. Data loading and exploration
 
-Handling missing values
+2. Handling missing values
 
-Feature scaling and preprocessing
+3. Feature scaling and preprocessing
 
-ANN architecture design
+4. ANN architecture design
 
-Model training and validation
+5. Model training and validation
 
-Performance evaluation (accuracy, loss)
+6. Performance evaluation (accuracy, loss)
 
-Model Architecture
+**Model Architecture**
 
-The Artificial Neural Network consists of:
+The Artificial Neural Network consists of: Input layer (medical features), Fully connected hidden layers with nonlinear activation, Output layer with sigmoid activation for binary classification
 
-Input layer (medical features)
-
-Fully connected hidden layers with nonlinear activation
-
-Output layer with sigmoid activation for binary classification
-
-Technologies Used
+**Technologies Used**
 
 PyTorch — neural network implementation
 
@@ -72,6 +64,6 @@ Scikit-learn — preprocessing and evaluation
 
 Matplotlib / Seaborn — visualization
 
-Results
+**Results**
 
 The model successfully learns patterns in patient health indicators to predict diabetes risk and demonstrates the effectiveness of deep learning for structured healthcare data.
